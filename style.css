@@ -211,6 +211,14 @@ nav ul li a:hover::after{
     border-radius: 10px;
     display: block;
 }
+.gallery-list div{
+    padding: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.gallery-list div:hover{
+        background: #ff004f;
+        transform: translateY(-10px);
+}
 .button{
     display: block;
     margin: 50px auto;
