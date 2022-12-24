@@ -265,10 +265,13 @@ nav ul li a:hover::after{
 }
 .button.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #080808;
     border-radius: 5px;
     padding: 10px 30px;
     margin-top: 10px;
+}
+.button.btn2:hover{
+    background: #ff004f;
 }
 .contact-right form{
     width: 100%;
